@@ -1,0 +1,203 @@
+{
+    'FreeTrial': {
+            'CREATE': {
+                  'DIALOG_HEADER': 'Free trial',
+                  'TAB-HEADER': 'Free trial',
+                  'VALIDATE': 'OK',
+                  'ACTION': 'Action',
+                  'SAVE': 'OK',
+                  'FREE-TRIAL-DETAILS-TAB-PAN-HEADER': '',
+                  'FREE-TRIAL-LABEL': 'Free trial',
+                  'FREE-TRIAL-PLACEHOLDER': 'Free trial',
+                  'FREE-TRIAL-DETAILS-COL': 'Free trial details',
+            },
+            'EDIT': {
+                  'DIALOG_HEADER': 'Free trial',
+                  'TAB-HEADER': 'Free trial',
+                  'VALIDATE': 'OK',
+                  'ACTION': 'Action',
+                  'SAVE': 'OK',
+                  'FREE-TRIAL-DETAILS-TAB-PAN-HEADER': '',
+                  'FREE-TRIAL-LABEL': 'Free trial',
+                  'FREE-TRIAL-PLACEHOLDER': 'Free trial',
+                  'FREE-TRIAL-DETAILS-COL': 'Free trial details',
+            },
+    },
+    'StatutFreeTrial': {
+            'CREATE': {
+                  'DIALOG_HEADER': 'Statut free trial',
+                  'TAB-HEADER': 'Statut free trial',
+                  'VALIDATE': 'OK',
+                  'ACTION': 'Action',
+                  'SAVE': 'OK',
+            },
+            'EDIT': {
+                  'DIALOG_HEADER': 'Statut free trial',
+                  'TAB-HEADER': 'Statut free trial',
+                  'VALIDATE': 'OK',
+                  'ACTION': 'Action',
+                  'SAVE': 'OK',
+            },
+    },
+    'FreeTrialConfiguration': {
+            'CREATE': {
+                  'DIALOG_HEADER': 'Free trial configuration',
+                  'TAB-HEADER': 'Free trial configuration',
+                  'VALIDATE': 'OK',
+                  'ACTION': 'Action',
+                  'SAVE': 'OK',
+            },
+            'EDIT': {
+                  'DIALOG_HEADER': 'Free trial configuration',
+                  'TAB-HEADER': 'Free trial configuration',
+                  'VALIDATE': 'OK',
+                  'ACTION': 'Action',
+                  'SAVE': 'OK',
+            },
+    },
+    'FreeTrialDetail': {
+            'CREATE': {
+                  'DIALOG_HEADER': 'Free trial detail',
+                  'TAB-HEADER': 'Free trial detail',
+                  'VALIDATE': 'OK',
+                  'ACTION': 'Action',
+                  'SAVE': 'OK',
+            },
+            'EDIT': {
+                  'DIALOG_HEADER': 'Free trial detail',
+                  'TAB-HEADER': 'Free trial detail',
+                  'VALIDATE': 'OK',
+                  'ACTION': 'Action',
+                  'SAVE': 'OK',
+            },
+    },
+    'FreeTrialTeacherWhatsTemplate': {
+            'CREATE': {
+                  'DIALOG_HEADER': 'Free trial teacher whats template',
+                  'TAB-HEADER': 'Free trial teacher whats template',
+                  'VALIDATE': 'OK',
+                  'ACTION': 'Action',
+                  'SAVE': 'OK',
+            },
+            'EDIT': {
+                  'DIALOG_HEADER': 'Free trial teacher whats template',
+                  'TAB-HEADER': 'Free trial teacher whats template',
+                  'VALIDATE': 'OK',
+                  'ACTION': 'Action',
+                  'SAVE': 'OK',
+            },
+    },
+    'Level': {
+            'CREATE': {
+                  'DIALOG_HEADER': 'Level',
+                  'TAB-HEADER': 'Level',
+                  'VALIDATE': 'OK',
+                  'ACTION': 'Action',
+                  'SAVE': 'OK',
+            },
+            'EDIT': {
+                  'DIALOG_HEADER': 'Level',
+                  'TAB-HEADER': 'Level',
+                  'VALIDATE': 'OK',
+                  'ACTION': 'Action',
+                  'SAVE': 'OK',
+            },
+    },
+    'Teacher': {
+            'CREATE': {
+                  'DIALOG_HEADER': 'Teacher',
+                  'TAB-HEADER': 'Teacher',
+                  'VALIDATE': 'OK',
+                  'ACTION': 'Action',
+                  'SAVE': 'OK',
+            },
+            'EDIT': {
+                  'DIALOG_HEADER': 'Teacher',
+                  'TAB-HEADER': 'Teacher',
+                  'VALIDATE': 'OK',
+                  'ACTION': 'Action',
+                  'SAVE': 'OK',
+            },
+    },
+    'Student': {
+            'CREATE': {
+                  'DIALOG_HEADER': 'Student',
+                  'TAB-HEADER': 'Student',
+                  'VALIDATE': 'OK',
+                  'ACTION': 'Action',
+                  'SAVE': 'OK',
+            },
+            'EDIT': {
+                  'DIALOG_HEADER': 'Student',
+                  'TAB-HEADER': 'Student',
+                  'VALIDATE': 'OK',
+                  'ACTION': 'Action',
+                  'SAVE': 'OK',
+            },
+    },
+    'Services': {
+            'CREATE': {
+                  'DIALOG_HEADER': 'Services',
+                  'TAB-HEADER': 'Services',
+                  'VALIDATE': 'OK',
+                  'ACTION': 'Action',
+                  'SAVE': 'OK',
+            },
+            'EDIT': {
+                  'DIALOG_HEADER': 'Services',
+                  'TAB-HEADER': 'Services',
+                  'VALIDATE': 'OK',
+                  'ACTION': 'Action',
+                  'SAVE': 'OK',
+            },
+    },
+    'FreeTrialStudentWhatsTemplate': {
+            'CREATE': {
+                  'DIALOG_HEADER': 'Free trial student whats template',
+                  'TAB-HEADER': 'Free trial student whats template',
+                  'VALIDATE': 'OK',
+                  'ACTION': 'Action',
+                  'SAVE': 'OK',
+            },
+            'EDIT': {
+                  'DIALOG_HEADER': 'Free trial student whats template',
+                  'TAB-HEADER': 'Free trial student whats template',
+                  'VALIDATE': 'OK',
+                  'ACTION': 'Action',
+                  'SAVE': 'OK',
+            },
+    },
+    'FreeTrialTeacherEmailTemplate': {
+            'CREATE': {
+                  'DIALOG_HEADER': 'Free trial teacher email template',
+                  'TAB-HEADER': 'Free trial teacher email template',
+                  'VALIDATE': 'OK',
+                  'ACTION': 'Action',
+                  'SAVE': 'OK',
+            },
+            'EDIT': {
+                  'DIALOG_HEADER': 'Free trial teacher email template',
+                  'TAB-HEADER': 'Free trial teacher email template',
+                  'VALIDATE': 'OK',
+                  'ACTION': 'Action',
+                  'SAVE': 'OK',
+            },
+    },
+    'FreeTrialStudentEmailTemplate': {
+            'CREATE': {
+                  'DIALOG_HEADER': 'Free trial student email template',
+                  'TAB-HEADER': 'Free trial student email template',
+                  'VALIDATE': 'OK',
+                  'ACTION': 'Action',
+                  'SAVE': 'OK',
+            },
+            'EDIT': {
+                  'DIALOG_HEADER': 'Free trial student email template',
+                  'TAB-HEADER': 'Free trial student email template',
+                  'VALIDATE': 'OK',
+                  'ACTION': 'Action',
+                  'SAVE': 'OK',
+            },
+    },
+
+}

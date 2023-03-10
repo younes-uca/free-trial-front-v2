@@ -1,0 +1,56 @@
+
+<p-dialog [(visible)]="viewFreeTrialTeacherWhatsTemplateDialog" [style]="{width: '70vw'}"
+        header="" [modal]="true"
+        styleClass="p-fluid">
+
+    <ng-template pTemplate="content">
+        <p-tabView>
+            <p-tabPanel header="Information">
+                <div class="p-grid">
+
+                                <div class="p-field p-col-12 p-md-6">
+                                    <label for="1">Object</label>
+                                    <input class="p-mb-2 p-mr-2" type="text" pInputText [disabled]="true"
+                                           placeholder="Object" autofocus
+                                           id="1" [(ngModel)]="selectedFreeTrialTeacherWhatsTemplate.object">
+                                </div>
+
+
+
+                                <div class="p-field p-col-12 p-md-6">
+                                    <label for="2">Corps</label>
+                                    <textarea id="2" pInputTextarea rows="5" cols="30" [disabled]="true"
+                                              placeholder="Corps"  [(ngModel)]="selectedFreeTrialTeacherWhatsTemplate.corps"
+                                    ></textarea>
+                                </div>
+
+                                <div class="p-field p-col-12 p-md-6">
+                                    <label for="3">Source</label>
+                                    <input class="p-mb-2 p-mr-2" type="text" pInputText [disabled]="true"
+                                           placeholder="Source" autofocus
+                                           id="3" [(ngModel)]="selectedFreeTrialTeacherWhatsTemplate.source">
+                                </div>
+
+
+
+                </div>
+            </p-tabPanel>
+
+
+        </p-tabView>
+
+    </ng-template>
+
+    <ng-template pTemplate="footer" >
+        <div class="p-grid">
+            <div>
+                <button pButton pRipple label="Annuler" icon="pi pi-times"
+                        class="p-button-text" (click)="hideViewDialog()"></button>
+            </div>
+        </div>
+    </ng-template>
+
+</p-dialog>
+
+
+

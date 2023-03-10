@@ -1,0 +1,205 @@
+
+<p-dialog [(visible)]="viewFreeTrialDialog" [style]="{width: '70vw'}"
+        header="" [modal]="true"
+        styleClass="p-fluid">
+
+    <ng-template pTemplate="content">
+        <p-tabView>
+            <p-tabPanel header="Information">
+                <div class="p-grid">
+
+                                <div class="p-field p-col-12 p-md-3">
+                                    <label for="1">Teacher</label>
+                                    <p-dropdown [options]="teachers" [(ngModel)]="selectedFreeTrial.teacher"
+                                            id="1" [filter]="true" filterMatchMode="contains"
+                                            [showClear]="true" [disabled]="true"
+                                            optionLabel="libelle"
+                                            placeholder="Teacher">
+                                    </p-dropdown>
+                                </div>
+                                <div class="p-field p-col-12 p-md-3">
+                                    <label for="2">Level</label>
+                                    <p-dropdown [options]="levels" [(ngModel)]="selectedFreeTrial.level"
+                                            id="2" [filter]="true" filterMatchMode="contains"
+                                            [showClear]="true" [disabled]="true"
+                                            optionLabel="libelle"
+                                            placeholder="Level">
+                                    </p-dropdown>
+                                </div>
+                                <div class="p-field p-col-12 p-md-3">
+                                    <label for="3">Date free trial</label>
+                                    <p-calendar id="3" [disabled]="true"  [showTime]="true" [showSeconds]="false"
+                                                placeholder="Date free trial"  [(ngModel)]="selectedFreeTrial.dateFreeTrial"
+                                            dateFormat="{{dateFormat}}"></p-calendar>
+                                </div>
+
+                                <div class="p-field p-col-12 p-md-3">
+                                    <label for="4">Link</label>
+                                    <input class="p-mb-2 p-mr-2" type="text" pInputText [disabled]="true"
+                                           placeholder="Link" autofocus
+                                           id="4" [(ngModel)]="selectedFreeTrial.link">
+                                </div>
+
+
+
+                                <div class="p-field p-col-12 p-md-3">
+                                    <label for="5">Free trial student whats template</label>
+                                    <p-dropdown [options]="freeTrialStudentWhatsTemplates" [(ngModel)]="selectedFreeTrial.freeTrialStudentWhatsTemplate"
+                                            id="5" [filter]="true" filterMatchMode="contains"
+                                            [showClear]="true" [disabled]="true"
+                                            optionLabel="id"
+                                            placeholder="Free trial student whats template">
+                                    </p-dropdown>
+                                </div>
+                                <div class="p-field p-col-12 p-md-3">
+                                    <label for="6">Free trial student email template</label>
+                                    <p-dropdown [options]="freeTrialStudentEmailTemplates" [(ngModel)]="selectedFreeTrial.freeTrialStudentEmailTemplate"
+                                            id="6" [filter]="true" filterMatchMode="contains"
+                                            [showClear]="true" [disabled]="true"
+                                            optionLabel="id"
+                                            placeholder="Free trial student email template">
+                                    </p-dropdown>
+                                </div>
+                                <div class="p-field p-col-12 p-md-3">
+                                    <label for="7">Free trial teacher email template</label>
+                                    <p-dropdown [options]="freeTrialTeacherEmailTemplates" [(ngModel)]="selectedFreeTrial.freeTrialTeacherEmailTemplate"
+                                            id="7" [filter]="true" filterMatchMode="contains"
+                                            [showClear]="true" [disabled]="true"
+                                            optionLabel="id"
+                                            placeholder="Free trial teacher email template">
+                                    </p-dropdown>
+                                </div>
+                                <div class="p-field p-col-12 p-md-3">
+                                    <label for="8">Free trial teacher whats template</label>
+                                    <p-dropdown [options]="freeTrialTeacherWhatsTemplates" [(ngModel)]="selectedFreeTrial.freeTrialTeacherWhatsTemplate"
+                                            id="8" [filter]="true" filterMatchMode="contains"
+                                            [showClear]="true" [disabled]="true"
+                                            optionLabel="id"
+                                            placeholder="Free trial teacher whats template">
+                                    </p-dropdown>
+                                </div>
+                                <div class="p-field p-col-12 p-md-3">
+                                    <label for="9">Date free trial premier rappel</label>
+                                    <p-calendar id="9" [disabled]="true"  [showTime]="true" [showSeconds]="false"
+                                                placeholder="Date free trial premier rappel"  [(ngModel)]="selectedFreeTrial.dateFreeTrialPremierRappel"
+                                            dateFormat="{{dateFormat}}"></p-calendar>
+                                </div>
+
+                                <div class="p-field p-col-12 p-md-3">
+                                    <label for="10">Date free trial premier deuxieme rappel</label>
+                                    <p-calendar id="10" [disabled]="true"  [showTime]="true" [showSeconds]="false"
+                                                placeholder="Date free trial premier deuxieme rappel"  [(ngModel)]="selectedFreeTrial.dateFreeTrialPremierDeuxiemeRappel"
+                                            dateFormat="{{dateFormat}}"></p-calendar>
+                                </div>
+
+                                <div class="p-field p-col-12 p-md-3">
+                                    <label for="11">Nombre student total</label>
+                                    <p-inputNumber class="p-mb-2 p-mr-2" id="11" [disabled]="true"
+                                                   placeholder="Nombre student total"  [(ngModel)]="selectedFreeTrial.nombreStudentTotal"
+                                            [(ngModel)]="selectedFreeTrial.nombreStudentTotal"></p-inputNumber>
+                                </div>
+
+                                <div class="p-field p-col-12 p-md-3">
+                                    <label for="12">Free trial configuration</label>
+                                    <p-dropdown [options]="freeTrialConfigurations" [(ngModel)]="selectedFreeTrial.freeTrialConfiguration"
+                                            id="12" [filter]="true" filterMatchMode="contains"
+                                            [showClear]="true" [disabled]="true"
+                                            optionLabel="id"
+                                            placeholder="Free trial configuration">
+                                    </p-dropdown>
+                                </div>
+                                <div class="p-field p-col-12 p-md-3">
+                                    <label for="13">Nombre student abonne</label>
+                                    <p-inputNumber class="p-mb-2 p-mr-2" id="13" [disabled]="true"
+                                                   placeholder="Nombre student abonne"  [(ngModel)]="selectedFreeTrial.nombreStudentAbonne"
+                                            [(ngModel)]="selectedFreeTrial.nombreStudentAbonne"></p-inputNumber>
+                                </div>
+
+                                <div class="p-field p-col-12 p-md-3">
+                                    <label for="14">Nombre student present</label>
+                                    <p-inputNumber class="p-mb-2 p-mr-2" id="14" [disabled]="true"
+                                                   placeholder="Nombre student present"  [(ngModel)]="selectedFreeTrial.nombreStudentPresent"
+                                            [(ngModel)]="selectedFreeTrial.nombreStudentPresent"></p-inputNumber>
+                                </div>
+
+                                <div class="p-field p-col-12 p-md-3">
+                                    <label for="15">Statut free trial</label>
+                                    <p-dropdown [options]="statutFreeTrials" [(ngModel)]="selectedFreeTrial.statutFreeTrial"
+                                            id="15" [filter]="true" filterMatchMode="contains"
+                                            [showClear]="true" [disabled]="true"
+                                            optionLabel="libelle"
+                                            placeholder="Statut free trial">
+                                    </p-dropdown>
+                                </div>
+                </div>
+            </p-tabPanel>
+
+                    <p-tabPanel header="Free trial details">
+                        <div class="p-grid">
+
+                            <div class="p-col">
+                                <div class="card">
+                                    <p-table [value]="selectedFreeTrial.freeTrialDetails" [scrollable]="true"
+                                            scrollHeight="200px">
+                                        <ng-template pTemplate="header">
+                                            <tr>
+                                                            <th>Student</th>
+                                                            <th>Presence</th>
+                                                            <th>Whats up message sent</th>
+                                                            <th>Date envoiwhats up message</th>
+                                                            <th>Email message sent</th>
+                                                            <th>Date envoi email message</th>
+                                                            <th>Abonne</th>
+                                            </tr>
+                                        </ng-template>
+                                        <ng-template pTemplate="body" let-p>
+                                            <tr>
+                                                        <td>{{p.student?.libelle}}</td>
+                                                            <td><i *ngIf="p.presence" class="pi pi-check checked-toogle"></i>
+                                                                <i *ngIf="!p.presence" class="pi pi-times unchecked-toogle"></i>
+                                                            </td>
+
+                                                            <td><i *ngIf="p.whatsUpMessageSent" class="pi pi-check checked-toogle"></i>
+                                                                <i *ngIf="!p.whatsUpMessageSent" class="pi pi-times unchecked-toogle"></i>
+                                                            </td>
+
+                                                            <td>{{p.dateEnvoiwhatsUpMessage | date: dateFormatColumn}}</td>
+
+                                                            <td><i *ngIf="p.emailMessageSent" class="pi pi-check checked-toogle"></i>
+                                                                <i *ngIf="!p.emailMessageSent" class="pi pi-times unchecked-toogle"></i>
+                                                            </td>
+
+                                                            <td>{{p.dateEnvoiEmailMessage | date: dateFormatColumn}}</td>
+
+                                                            <td><i *ngIf="p.abonne" class="pi pi-check checked-toogle"></i>
+                                                                <i *ngIf="!p.abonne" class="pi pi-times unchecked-toogle"></i>
+                                                            </td>
+
+
+                                            </tr>
+                                        </ng-template>
+                                    </p-table>
+                                </div>
+                            </div>
+                        </div>
+
+                    </p-tabPanel>
+
+
+        </p-tabView>
+
+    </ng-template>
+
+    <ng-template pTemplate="footer" >
+        <div class="p-grid">
+            <div>
+                <button pButton pRipple label="Annuler" icon="pi pi-times"
+                        class="p-button-text" (click)="hideViewDialog()"></button>
+            </div>
+        </div>
+    </ng-template>
+
+</p-dialog>
+
+
+

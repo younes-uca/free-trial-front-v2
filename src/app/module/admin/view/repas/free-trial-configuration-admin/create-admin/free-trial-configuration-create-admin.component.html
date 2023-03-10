@@ -1,0 +1,68 @@
+        <p-dialog [(visible)]="createFreeTrialConfigurationDialog" [style]="{width: '70vw'}"
+                header="Free trial configuration" [modal]="true"
+                styleClass="p-fluid" [maximizable]="true" [draggable]="false" [resizable]="false">
+
+
+            <ng-template pTemplate="content" >
+                <p-tabView>
+                    <p-tabPanel header="Free trial configuration">
+                        <div class="p-grid">
+
+                                        <div class="p-field p-col-12 p-md-6">
+                                            <label for="1">Date application debut</label>
+                                            <p-calendar id="1"  [showTime]="true" [showSeconds]="false"
+                                                        placeholder="Date application debut"  [(ngModel)]="selectedFreeTrialConfiguration.dateApplicationDebut"
+                                                    dateFormat="{{dateFormat}}"  >
+                                            </p-calendar>
+                                            
+                                        </div>
+
+                                        <div class="p-field p-col-12 p-md-6">
+                                            <label for="2">Date application fin</label>
+                                            <p-calendar id="2"  [showTime]="true" [showSeconds]="false"
+                                                        placeholder="Date application fin"  [(ngModel)]="selectedFreeTrialConfiguration.dateApplicationFin"
+                                                    dateFormat="{{dateFormat}}"  >
+                                            </p-calendar>
+                                            
+                                        </div>
+
+                                        <div class="p-field p-col-12 p-md-6">
+                                            <label for="3">Nombre student max</label>
+                                            <p-inputNumber class="p-mb-2 p-mr-2" id="3"
+                                                           placeholder="Nombre student max"
+                                                    [(ngModel)]="selectedFreeTrialConfiguration.nombreStudentMax"  >
+                                            </p-inputNumber>
+                                            
+                                        </div>
+
+                                        <div class="p-field p-col-12 p-md-6">
+                                            <label for="4">Nombre student min</label>
+                                            <p-inputNumber class="p-mb-2 p-mr-2" id="4"
+                                                           placeholder="Nombre student min"
+                                                    [(ngModel)]="selectedFreeTrialConfiguration.nombreStudentMin"  >
+                                            </p-inputNumber>
+                                            
+                                        </div>
+
+                        </div>
+                    </p-tabPanel>
+
+                </p-tabView>
+
+            </ng-template>
+
+            <ng-template pTemplate="footer" >
+                <div class="p-grid">
+                        <div>
+                            <button pButton pRipple label="Annuler" icon="pi pi-times"
+                                    class="p-button-text" (click)="hideCreateDialog()"></button>
+                        </div>
+                    <div>
+                        <button pButton pRipple label="Valider" icon="pi pi-check" style="margin:10px" (click)="save()"></button>
+                    </div>
+                </div>
+            </ng-template>
+
+
+
+    </p-dialog>

@@ -1,0 +1,136 @@
+        <p-dialog [(visible)]="editFreeTrialDetailDialog" [style]="{width: '70vw'}"
+                header="Free trial detail" [modal]="true"
+                styleClass="p-fluid" [maximizable]="true" [draggable]="false" [resizable]="false">
+
+
+            <ng-template pTemplate="content" >
+                <p-tabView>
+                    <p-tabPanel header="Free trial detail">
+                        <div class="p-grid">
+
+                                    <div class="p-field p-col-11 p-md-3">
+                                            <label for="1">Free trial</label>
+                                            <p-dropdown [options]="freeTrials" [(ngModel)]="selectedFreeTrialDetail.freeTrial"
+                                                    id="1" [filter]="true" filterMatchMode="contains"
+                                                    [showClear]="true"
+                                                    optionLabel="id"
+                                                    placeholder="Free trial"  >
+                                            </p-dropdown>
+                                            
+                                        </div>
+                                        <div class="p-col-1">
+                                            <label></label>
+                                            <button pButton pRipple type="button"
+                                                    icon="pi pi-plus"   (click)="openCreatefreeTrial('freeTrial')"
+                                                    class="p-button-success one-colonne-btn-success-align"></button>
+                                        </div>
+                                    <div class="p-field p-col-11 p-md-3">
+                                            <label for="2">Student</label>
+                                            <p-dropdown [options]="students" [(ngModel)]="selectedFreeTrialDetail.student"
+                                                    id="2" [filter]="true" filterMatchMode="contains"
+                                                    [showClear]="true"
+                                                    optionLabel="libelle"
+                                                    placeholder="Student"  >
+                                            </p-dropdown>
+                                            
+                                        </div>
+                                        <div class="p-col-1">
+                                            <label></label>
+                                            <button pButton pRipple type="button"
+                                                    icon="pi pi-plus"   (click)="openCreatestudent('student')"
+                                                    class="p-button-success one-colonne-btn-success-align"></button>
+                                        </div>
+                                        <div class="p-field align-inputswitch p-col-12  p-md-4">
+                                            <div  class="label-inputswitch">
+                                                <label for="3">Presence</label>
+                                            </div>
+                                            <div class="input-switch">
+                                                <p-inputSwitch id="3"  [(ngModel)]="selectedFreeTrialDetail.presence"
+                                                         >
+                                                </p-inputSwitch>
+                                                
+                                            </div>
+                                        </div>
+
+
+                                        <div class="p-field align-inputswitch p-col-12  p-md-4">
+                                            <div  class="label-inputswitch">
+                                                <label for="4">Whats up message sent</label>
+                                            </div>
+                                            <div class="input-switch">
+                                                <p-inputSwitch id="4"  [(ngModel)]="selectedFreeTrialDetail.whatsUpMessageSent"
+                                                         >
+                                                </p-inputSwitch>
+                                                
+                                            </div>
+                                        </div>
+
+
+                                        <div class="p-field p-col-12 p-md-4">
+                                            <label for="5">Date envoiwhats up message</label>
+                                            <p-calendar id="5"   [showTime]="true" [showSeconds]="false"
+                                                        placeholder="Date envoiwhats up message"  [(ngModel)]="selectedFreeTrialDetail.dateEnvoiwhatsUpMessage"
+                                                    dateFormat="{{dateFormat}}"  >
+                                            </p-calendar>
+                                            
+                                        </div>
+
+                                        <div class="p-field align-inputswitch p-col-12  p-md-4">
+                                            <div  class="label-inputswitch">
+                                                <label for="6">Email message sent</label>
+                                            </div>
+                                            <div class="input-switch">
+                                                <p-inputSwitch id="6"  [(ngModel)]="selectedFreeTrialDetail.emailMessageSent"
+                                                         >
+                                                </p-inputSwitch>
+                                                
+                                            </div>
+                                        </div>
+
+
+                                        <div class="p-field p-col-12 p-md-4">
+                                            <label for="7">Date envoi email message</label>
+                                            <p-calendar id="7"   [showTime]="true" [showSeconds]="false"
+                                                        placeholder="Date envoi email message"  [(ngModel)]="selectedFreeTrialDetail.dateEnvoiEmailMessage"
+                                                    dateFormat="{{dateFormat}}"  >
+                                            </p-calendar>
+                                            
+                                        </div>
+
+                                        <div class="p-field align-inputswitch p-col-12  p-md-4">
+                                            <div  class="label-inputswitch">
+                                                <label for="8">Abonne</label>
+                                            </div>
+                                            <div class="input-switch">
+                                                <p-inputSwitch id="8"  [(ngModel)]="selectedFreeTrialDetail.abonne"
+                                                         >
+                                                </p-inputSwitch>
+                                                
+                                            </div>
+                                        </div>
+
+
+                        </div>
+                    </p-tabPanel>
+
+                </p-tabView>
+
+            </ng-template>
+
+            <ng-template pTemplate="footer" >
+                <div class="p-grid">
+                        <div>
+                            <button pButton pRipple label="Annuler" icon="pi pi-times"
+                                    class="p-button-text" (click)="hideEditDialog()"></button>
+                        </div>
+                    <div>
+                        <button pButton pRipple label="Valider" icon="pi pi-check" style="margin:10px" (click)="edit()"></button>
+                    </div>
+                </div>
+            </ng-template>
+
+                    <app-free-trial-create-admin></app-free-trial-create-admin>
+                    <app-student-create-admin></app-student-create-admin>
+
+
+    </p-dialog>

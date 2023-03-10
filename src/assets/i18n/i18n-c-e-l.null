@@ -1,0 +1,256 @@
+{
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'Liste des free trials': 'Liste des free trials',
+    'Chercher...': 'Chercher...',
+    'Free trial': 'Free trial',
+
+
+        'Id': 'Id',
+            'Teacher': 'Teacher',
+
+        'Teacher': 'Teacher',
+            'Level': 'Level',
+
+        'Level': 'Level',
+            'Date free trial': 'Date free trial',
+
+        'Date free trial': 'Date free trial',
+            'Link': 'Link',
+
+        'Link': 'Link',
+            'Free trial student whats template': 'Free trial student whats template',
+
+        'Free trial student whats template': 'Free trial student whats template',
+            'Free trial student email template': 'Free trial student email template',
+
+        'Free trial student email template': 'Free trial student email template',
+            'Free trial teacher email template': 'Free trial teacher email template',
+
+        'Free trial teacher email template': 'Free trial teacher email template',
+            'Free trial teacher whats template': 'Free trial teacher whats template',
+
+        'Free trial teacher whats template': 'Free trial teacher whats template',
+            'Date free trial premier rappel': 'Date free trial premier rappel',
+
+        'Date free trial premier rappel': 'Date free trial premier rappel',
+            'Date free trial premier deuxieme rappel': 'Date free trial premier deuxieme rappel',
+
+        'Date free trial premier deuxieme rappel': 'Date free trial premier deuxieme rappel',
+            'Nombre student total': 'Nombre student total',
+
+        'Nombre student total': 'Nombre student total',
+            'Free trial configuration': 'Free trial configuration',
+
+        'Free trial configuration': 'Free trial configuration',
+            'Nombre student abonne': 'Nombre student abonne',
+
+        'Nombre student abonne': 'Nombre student abonne',
+            'Nombre student present': 'Nombre student present',
+
+        'Nombre student present': 'Nombre student present',
+            'Statut free trial': 'Statut free trial',
+
+        'Statut free trial': 'Statut free trial',
+            'Free trial details': 'Free trial details',
+
+        'Free trial details': 'Free trial details',
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'Liste des statut free trials': 'Liste des statut free trials',
+    'Chercher...': 'Chercher...',
+    'Statut free trial': 'Statut free trial',
+
+
+        'Id': 'Id',
+            'Libelle': 'Libelle',
+
+        'Libelle': 'Libelle',
+            'Code': 'Code',
+
+        'Code': 'Code',
+            'Style': 'Style',
+
+        'Style': 'Style',
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'Liste des free trial configurations': 'Liste des free trial configurations',
+    'Chercher...': 'Chercher...',
+    'Free trial configuration': 'Free trial configuration',
+
+
+        'Id': 'Id',
+            'Date application debut': 'Date application debut',
+
+        'Date application debut': 'Date application debut',
+            'Date application fin': 'Date application fin',
+
+        'Date application fin': 'Date application fin',
+            'Nombre student max': 'Nombre student max',
+
+        'Nombre student max': 'Nombre student max',
+            'Nombre student min': 'Nombre student min',
+
+        'Nombre student min': 'Nombre student min',
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'Liste des free trial details': 'Liste des free trial details',
+    'Chercher...': 'Chercher...',
+    'Free trial detail': 'Free trial detail',
+
+
+        'Id': 'Id',
+            'Free trial': 'Free trial',
+
+        'Free trial': 'Free trial',
+            'Student': 'Student',
+
+        'Student': 'Student',
+            'Presence': 'Presence',
+
+        'Presence': 'Presence',
+            'Whats up message sent': 'Whats up message sent',
+
+        'Whats up message sent': 'Whats up message sent',
+            'Date envoiwhats up message': 'Date envoiwhats up message',
+
+        'Date envoiwhats up message': 'Date envoiwhats up message',
+            'Email message sent': 'Email message sent',
+
+        'Email message sent': 'Email message sent',
+            'Date envoi email message': 'Date envoi email message',
+
+        'Date envoi email message': 'Date envoi email message',
+            'Abonne': 'Abonne',
+
+        'Abonne': 'Abonne',
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'Liste des free trial teacher whats templates': 'Liste des free trial teacher whats templates',
+    'Chercher...': 'Chercher...',
+    'Free trial teacher whats template': 'Free trial teacher whats template',
+
+
+        'Id': 'Id',
+            'Object': 'Object',
+
+        'Object': 'Object',
+            'Corps': 'Corps',
+
+        'Corps': 'Corps',
+            'Source': 'Source',
+
+        'Source': 'Source',
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'Liste des levels': 'Liste des levels',
+    'Chercher...': 'Chercher...',
+    'Level': 'Level',
+
+
+        'Id': 'Id',
+            'Libelle': 'Libelle',
+
+        'Libelle': 'Libelle',
+            'Code': 'Code',
+
+        'Code': 'Code',
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'Liste des teachers': 'Liste des teachers',
+    'Chercher...': 'Chercher...',
+    'Teacher': 'Teacher',
+
+
+        'Id': 'Id',
+            'Libelle': 'Libelle',
+
+        'Libelle': 'Libelle',
+            'Code': 'Code',
+
+        'Code': 'Code',
+            'Email': 'Email',
+
+        'Email': 'Email',
+            'Phone': 'Phone',
+
+        'Phone': 'Phone',
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'Liste des students': 'Liste des students',
+    'Chercher...': 'Chercher...',
+    'Student': 'Student',
+
+
+        'Id': 'Id',
+            'Libelle': 'Libelle',
+
+        'Libelle': 'Libelle',
+            'Code': 'Code',
+
+        'Code': 'Code',
+            'Email': 'Email',
+
+        'Email': 'Email',
+            'Phone': 'Phone',
+
+        'Phone': 'Phone',
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'Liste des services': 'Liste des services',
+    'Chercher...': 'Chercher...',
+    'Services': 'Services',
+
+
+        'Id': 'Id',
+            'Code': 'Code',
+
+        'Code': 'Code',
+            'Libelle': 'Libelle',
+
+        'Libelle': 'Libelle',
+            'Description': 'Description',
+
+        'Description': 'Description',
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'Liste des free trial student whats templates': 'Liste des free trial student whats templates',
+    'Chercher...': 'Chercher...',
+    'Free trial student whats template': 'Free trial student whats template',
+
+
+        'Id': 'Id',
+            'Object': 'Object',
+
+        'Object': 'Object',
+            'Corps': 'Corps',
+
+        'Corps': 'Corps',
+            'Source': 'Source',
+
+        'Source': 'Source',
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'Liste des free trial teacher email templates': 'Liste des free trial teacher email templates',
+    'Chercher...': 'Chercher...',
+    'Free trial teacher email template': 'Free trial teacher email template',
+
+
+        'Id': 'Id',
+            'Object': 'Object',
+
+        'Object': 'Object',
+            'Corps': 'Corps',
+
+        'Corps': 'Corps',
+            'Source': 'Source',
+
+        'Source': 'Source',
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'Liste des free trial student email templates': 'Liste des free trial student email templates',
+    'Chercher...': 'Chercher...',
+    'Free trial student email template': 'Free trial student email template',
+
+
+        'Id': 'Id',
+            'Object': 'Object',
+
+        'Object': 'Object',
+            'Corps': 'Corps',
+
+        'Corps': 'Corps',
+            'Source': 'Source',
+
+        'Source': 'Source',
+}
+
+

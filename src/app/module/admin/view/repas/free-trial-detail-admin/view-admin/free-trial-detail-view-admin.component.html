@@ -1,0 +1,103 @@
+
+<p-dialog [(visible)]="viewFreeTrialDetailDialog" [style]="{width: '70vw'}"
+        header="" [modal]="true"
+        styleClass="p-fluid">
+
+    <ng-template pTemplate="content">
+        <p-tabView>
+            <p-tabPanel header="Information">
+                <div class="p-grid">
+
+                                <div class="p-field p-col-12 p-md-4">
+                                    <label for="1">Free trial</label>
+                                    <p-dropdown [options]="freeTrials" [(ngModel)]="selectedFreeTrialDetail.freeTrial"
+                                            id="1" [filter]="true" filterMatchMode="contains"
+                                            [showClear]="true" [disabled]="true"
+                                            optionLabel="id"
+                                            placeholder="Free trial">
+                                    </p-dropdown>
+                                </div>
+                                <div class="p-field p-col-12 p-md-4">
+                                    <label for="2">Student</label>
+                                    <p-dropdown [options]="students" [(ngModel)]="selectedFreeTrialDetail.student"
+                                            id="2" [filter]="true" filterMatchMode="contains"
+                                            [showClear]="true" [disabled]="true"
+                                            optionLabel="libelle"
+                                            placeholder="Student">
+                                    </p-dropdown>
+                                </div>
+                                <div class="p-field align-inputswitch p-col-12  p-md-4">
+                                    <div  class="label-inputswitch">
+                                        <label for="3">Presence</label>
+                                    </div>
+                                    <div class="input-switch">
+                                        <p-inputSwitch id="3"  [disabled]="true" [(ngModel)]="selectedFreeTrialDetail.presence"></p-inputSwitch>
+                                    </div>
+                                </div>
+
+
+                                <div class="p-field align-inputswitch p-col-12  p-md-4">
+                                    <div  class="label-inputswitch">
+                                        <label for="4">Whats up message sent</label>
+                                    </div>
+                                    <div class="input-switch">
+                                        <p-inputSwitch id="4"  [disabled]="true" [(ngModel)]="selectedFreeTrialDetail.whatsUpMessageSent"></p-inputSwitch>
+                                    </div>
+                                </div>
+
+
+                                <div class="p-field p-col-12 p-md-4">
+                                    <label for="5">Date envoiwhats up message</label>
+                                    <p-calendar id="5" [disabled]="true"  [showTime]="true" [showSeconds]="false"
+                                                placeholder="Date envoiwhats up message"  [(ngModel)]="selectedFreeTrialDetail.dateEnvoiwhatsUpMessage"
+                                            dateFormat="{{dateFormat}}"></p-calendar>
+                                </div>
+
+                                <div class="p-field align-inputswitch p-col-12  p-md-4">
+                                    <div  class="label-inputswitch">
+                                        <label for="6">Email message sent</label>
+                                    </div>
+                                    <div class="input-switch">
+                                        <p-inputSwitch id="6"  [disabled]="true" [(ngModel)]="selectedFreeTrialDetail.emailMessageSent"></p-inputSwitch>
+                                    </div>
+                                </div>
+
+
+                                <div class="p-field p-col-12 p-md-4">
+                                    <label for="7">Date envoi email message</label>
+                                    <p-calendar id="7" [disabled]="true"  [showTime]="true" [showSeconds]="false"
+                                                placeholder="Date envoi email message"  [(ngModel)]="selectedFreeTrialDetail.dateEnvoiEmailMessage"
+                                            dateFormat="{{dateFormat}}"></p-calendar>
+                                </div>
+
+                                <div class="p-field align-inputswitch p-col-12  p-md-4">
+                                    <div  class="label-inputswitch">
+                                        <label for="8">Abonne</label>
+                                    </div>
+                                    <div class="input-switch">
+                                        <p-inputSwitch id="8"  [disabled]="true" [(ngModel)]="selectedFreeTrialDetail.abonne"></p-inputSwitch>
+                                    </div>
+                                </div>
+
+
+                </div>
+            </p-tabPanel>
+
+
+        </p-tabView>
+
+    </ng-template>
+
+    <ng-template pTemplate="footer" >
+        <div class="p-grid">
+            <div>
+                <button pButton pRipple label="Annuler" icon="pi pi-times"
+                        class="p-button-text" (click)="hideViewDialog()"></button>
+            </div>
+        </div>
+    </ng-template>
+
+</p-dialog>
+
+
+
