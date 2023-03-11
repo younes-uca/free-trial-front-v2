@@ -13,7 +13,7 @@ import {FreeTrialStudentWhatsTemplateDto} from './FreeTrialStudentWhatsTemplate.
 export class FreeTrialDto {
 
     public id: number;
-
+ public reference: string;
     public dateFreeTrial: Date;
     public link: string;
     public dateFreeTrialPremierRappel: Date;
